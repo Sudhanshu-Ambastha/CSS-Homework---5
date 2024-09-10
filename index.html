@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box View</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px 0;
+    width: max-content;
+}
+
+.box{
+    border: 2px solid red;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+li {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <br/>    
+    <div class="box">
+        <h1>I'm a box</h1>
+    </div>
+    <br/>
+    <div class="box">
+        <p>I'm also a box with some text in it.. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod <br/>
+            molestiae cumque dolores provident! Quo repellat odio rerum, ipsa maiores adipisci veritatis beatae, non <br/>
+            ipsam minus dignissimos amet cupiditate nesciunt quas?</p>
+    </div>
+    <br/>
+    <div class="box">
+        <ul >
+            <li>This list is a box</li>
+            <li>And all the list items in it are boxes</li>
+        </ul>
+    </div>
+    <br/>
+    <div>
+        <p>even <button class="box">buttons</button> and <a href="#" class="box">links</a> are boxes.</p>
+    </div>
+    </div>
+</body>
+
+</html>
